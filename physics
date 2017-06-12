@@ -1,0 +1,6 @@
+class Physic:
+    def __init__(self):
+        self.vel = vec(0, 0)  # speed
+        self.acc = vec(0, 0)  # accelerate
+
+    def update(self):
